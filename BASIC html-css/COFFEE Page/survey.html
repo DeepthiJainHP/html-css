@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coffee Survey</h1>
+    <aside>
+        <img src="images/espresso.jpg">
+    </aside>
+    <form action="coffee-survey.html" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" required/><br><br>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="enter a valid email" id="email" required/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Coffee Preferences</legend>
+
+            Tell us your coffee preparation methods.
+            <textarea name="preparation"></textarea><br><br>
+
+            Do you grind your own beans?
+            <input type="radio" name="grind" value="yes"/>yes
+            <input type="radio" name="grind" value="no"/>no<br><br>
+
+            How do you drink your coffee?
+            <input type="checkbox" name="drink" value="sugar"/>with sugar
+            <input type="checkbox" name="drink" value="cream"/>with cream<br><br>
+
+            What is your favorite coffee drink?
+            <select name="favorite">
+                <option value="">please select a drink</option>
+                <option value="drip">drip coffee</option>
+                <option value="french">french press</option>
+                <option value="espress">espresso</option>
+                <option value="latte">latte</option>
+                <option value="flavored">flavored</option>
+            </select>
+        </fieldset>
+    </form>
+
+</body>
+</html>

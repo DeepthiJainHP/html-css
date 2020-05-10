@@ -1,0 +1,88 @@
+
+/* big tablet to large screen: width smaller than 1140px*/
+@media only screen and (max-width:1200px){
+    .main-content{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        margin:0 2%;
+    }
+    .section-steps .row .btn-app{
+        float: right;
+    }
+    .btn-app img{
+        display: inline-block;
+    }
+}
+
+/*small tablet to big tablet : width:767-1023*/
+@media only screen and (max-width:1023px){
+    body{ font-size: 18px;}
+    section{
+        padding: 60px 0px;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box img{
+        margin-top: 10px;
+    }
+    .work-steps{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .work-steps:last-of-type{
+        margin-bottom: 60px;
+    }
+    .btn-app img{
+        float: right;
+    }
+    .app-screen{
+        width:50%;
+    }
+    .city-logo{
+        margin-right: 10px;
+        width: 17px;
+    }
+    .city-details{
+        font-size: 86%;
+    }
+    .city-details a{
+        margin:0px;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* .plan-price-meal{
+        font-size: 60%;
+        font-weight: 150;
+    } */
+    .plan-box ul li{
+        font-size: 16px;
+    }
+    .contact-form{
+        width:80%;
+    }
+}
+
+/*small phones to small tablet : width:481-767*/
+@media only screen and (max-width:767px){
+    body{ font-size: 16px;}
+    section{ padding: 30px 0px;}
+    .row,.main-content{ padding: 0 4%;}
+    .col{width:100%}
+    .main-nav{display: none;}
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+    .long-copy{width:100%;margin-left: 0%;}
+}
+
+/*small phones:width 0-480px*/
+@media only screen and (max-width:480px){
+    .contact-form{
+        width:100%;
+    }
+}

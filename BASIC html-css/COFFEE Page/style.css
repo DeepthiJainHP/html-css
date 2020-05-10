@@ -1,0 +1,83 @@
+body{
+    margin:0px auto;
+    width: 720px;
+}
+
+h1,h2,h3{
+    color:brown;
+}
+
+ul{
+    list-style-image: url("images/tiny-coffee-cup.gif");
+}
+
+a:link ,a:visited{
+    color:brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a:link,nav a:visited{
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+    width: 110px;
+    display: block;
+    padding: 10px 1.2px 10px 2px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+aside{
+    background-color: tan;
+    font-weight: bold;
+    float: right;
+    width:280px;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo-left{
+    float: left;
+    margin-right: 40px;
+}
+
+.photo-right{
+    float: right;
+}
+
+header{
+    background-image: url("images/coffee-beans.jpg");
+    height: 100px;
+}
+
+header h1{
+    color:rgba(255,255,255,0.8);
+    margin-left: 20px;
+}
+
+td,th{
+    border:1px solid black;
+    width:20%;
+    text-align:center;
+    padding:5px;
+}
+table{
+    border-collapse: collapse;
+}
